@@ -56,7 +56,7 @@ public class HamcrestMatchersIntro {
         //check if text contains String learning
         assertThat(text, containsString("learning"));
         //case insensitive
-        assertThat(text, containsStringIgnoringCase("LEARNING");
+        assertThat(text, containsStringIgnoringCase("LEARNING"));
 
         String str = " ";
 
